@@ -1,4 +1,4 @@
-**
+/**
 * Storage封装
 */
 const  STORAGE_KEY = 'mall';
@@ -36,4 +36,4 @@ export default{
     }
     window.sessionStorage.setItem(STORAGE_KEY, JSON.stringify(val));
   }
-}
+};
